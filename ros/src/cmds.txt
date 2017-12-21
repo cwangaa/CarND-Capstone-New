@@ -1,0 +1,8 @@
+roslaunch launch/styx.launch
+source devel/setup.sh
+catkin_make
+git push https://github.com/JacquesRoth/CarND-Capstone
+git commit -m"Default is no stopping in waypoint_updater"
+git add *
+cd ~/CarND-Capstone
+
